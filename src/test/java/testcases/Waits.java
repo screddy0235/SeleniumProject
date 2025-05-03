@@ -15,6 +15,7 @@ public class Waits {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://testautomationpractice.blogspot.com/");
+        driver.navigate().to("");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));  //implicit wait
 
